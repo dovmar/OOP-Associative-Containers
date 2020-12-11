@@ -1,6 +1,7 @@
 # OOP-Associative-Conatiners
 
 Programa skirta nuskaityti tekstinį failą, surasti pasikartojančius žodžius ir išvesti kiek kartų pasikartojo ir kuriose eliutėse buvo rasti tie žodžiai. 
+
 Programa taip pat gali tekste surasti interneto nuorodas ir jas atskirai išvesti į failą arba ekrane.
 
 
