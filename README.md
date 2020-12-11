@@ -18,8 +18,3 @@ Programa taip pat gali tekste surasti interneto nuorodas ir jas atskirai išvest
 ## Naudojimosi instrukcija
 
 - Tiesiog paleiskite programą ir sekite nurodymus ekrane.
-
-## Versijų istorija
-
-## [0.5 versija](https://github.com/dovmar/OOP-Associative-Containers/releases/tag/v0.5)
-
