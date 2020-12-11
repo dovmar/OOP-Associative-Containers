@@ -1,4 +1,4 @@
-#include "header.h";
+#include "Header.h";
 
 void rastiURL(set<string>& urls, string eilute) {
     // Randa nuorodas pateiktoje eiluteje
@@ -115,11 +115,28 @@ void isvestiURL(set<string>& urls, string failoPav) {
 
 int main()
 {
+    int n;
+    string failoPav;
     set<string> urls;
     map<string, vector<int>> zodynas;
-    nuskaitytiTeksta(urls, zodynas, "text.txt");
-    isvestiPasikartojancius(zodynas,"rezultatai.txt");
-    isvestiURL(urls);
+    cout << "Iveskite norimo nuskaityti failo pavadinima (iskaitant.txt)" << "\n";
+    cin >> failoPav;
+    nuskaitytiTeksta(urls, zodynas, failoPav);
+    while (true) {
+        cout << "Kaip isvesti faile rastas nuorodas: " << "\n";
+        cout << "1. Isvesti i atskira faila" << "\n";
+        cout << "2. Isvesti i ekrana" << "\n";
+        cin >> n;
+        if (n != 1 && n != 2) {
+            cout << "Tokio pasirinkimo nera" << "\n";
+        }
+        if (n == 1) {
+            isvestiURL(urls, "nuorodos.txt");
+            break;
+        }
+        if (n == 2) {
+            isvestiURL(urls);
+            break;
+        }
+    }
 }
-
-    
