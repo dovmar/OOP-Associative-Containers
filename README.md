@@ -18,3 +18,9 @@ Programa taip pat gali tekste surasti interneto nuorodas ir jas atskirai išvest
 ## Naudojimosi instrukcija
 
 - Tiesiog paleiskite programą ir sekite nurodymus ekrane.
+
+## Versijų istorija
+
+## [0.5 versija](https://github.com/dovmar/OOP-Uzduotis-1/releases/tag/v1.5)
+
+- Pirminė programos versija su veikiančiomis pagrindinėmis funkcijomis.
