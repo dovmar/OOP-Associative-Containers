@@ -9,9 +9,6 @@ Programa taip pat gali tekste surasti interneto nuorodas ir jas atskirai išvest
 - Sprtesnis programos veikimas
 - Pridėta galimybė pasirinkti kaip išvesti suskaičiuotus žodžius (ekrane ar tekstiniame faile)
 
-## 0.5 versija
-
-- Realizuotos pagrindinės programos veikimo funkcijos
 
 ## Įdiegimo instrukcija
 
