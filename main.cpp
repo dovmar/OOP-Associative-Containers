@@ -12,7 +12,6 @@ void rastiURL(set<string>& urls, string eilute) {
     }
 }
 
-
 string supaprastintiEilute(set<string> urls,string eilute) {
     // Is eilutes istrina skaicius ir kitus ne raidinius simbolius
     for (auto url : urls) {
