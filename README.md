@@ -4,6 +4,10 @@ Programa skirta nuskaityti tekstinį failą, surasti pasikartojančius žodžius
 
 Programa taip pat gali tekste surasti interneto nuorodas ir jas atskirai išvesti į failą arba ekrane.
 
+## 1.0 versija
+
+- Sprtesnis programos veikimas
+- Pridėta galimybė pasirinkti kaip išvesti suskaičiuotus žodžius (ekrane ar tekstiniame faile)
 
 ## 0.5 versija
 
