@@ -20,3 +20,4 @@ using std::vector;
 using std::setw;
 using std::left;
 using std::cout;
+using std::cin;
