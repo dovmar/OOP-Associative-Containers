@@ -46,7 +46,7 @@ map<string, vector<int>>::iterator zodisZodyne(map<string, vector<int>>& zodynas
 }
 
 
-void papildytiZodyna(map<string, vector<int>>& zodynas, int index, map<string,vector<int>>::iterator iter) {
+void papildytiZodyna(int index, map<string,vector<int>>::iterator iter) {
     // Atnaujina informacija apie zodzius kurie jau yra zodyn
     iter->second.push_back(index);
 
@@ -72,7 +72,7 @@ void nuskaitytiTeksta(set<string>& urls, map<string, vector<int>>& zodynas, stri
                 zodynas.insert(std::make_pair(zodis, vector<int>({i+1})));
             }
             else {
-                papildytiZodyna(zodynas, i+1, iter);
+                papildytiZodyna(i+1, iter);
             }
         }
     }
